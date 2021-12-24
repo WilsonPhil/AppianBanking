@@ -15,10 +15,7 @@ public class ConnectionUtil {
 			e.printStackTrace();
 		}
 		
-		String url="jdbc:postgresql://appian-210419.ck4cz0egk9pc.us-east-2.rds.amazonaws.com:5432/";
 		
-		String username="postgres";
-		String password="password";
 		
 		return DriverManager.getConnection(url,username,password);
 		
